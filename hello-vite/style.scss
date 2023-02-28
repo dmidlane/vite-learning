@@ -1,3 +1,5 @@
+$color: blue;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -45,6 +47,11 @@ body {
   /* h1 {
     color: red;
   } */
+
+  button {
+    background-color: $color;
+    color: #fff;
+  }
 }
 
 .logo {
